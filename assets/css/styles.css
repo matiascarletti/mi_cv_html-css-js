@@ -1,0 +1,151 @@
+/* Reseteo de estilos del navegador*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+/* Layout general */
+#principal{
+    width: 900px;
+    height: 1800px;
+    margin: 0px auto;
+    background: black;
+}
+
+header{
+    width: 900px;
+    height: 200px;
+    background: red;
+}
+
+nav{
+    width: 900px;
+    height: 25px;
+    background: green;
+}
+
+main{
+    width: 900px;
+    height: 1500px;
+    background: orange;
+}
+
+footer{
+    width: 900px;
+    height: 50px;
+    background: violet;
+}
+
+/* Layout header */
+#header_foto{
+    width: 150px;
+    height: 150px;
+    padding: 0px 0px;
+    float: left;
+}
+
+#foto_perfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 4px 4px;
+    float: left;
+}
+
+#header_nombre{
+    width: 825px;
+    height: 100px;
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+
+h1.headerText{
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+
+#header_descripcion{
+    width: 825px;
+    height: 100px;
+    text-align: center;
+
+}
+
+/*Layout Barra de navegación horizontal*/
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(213, 70, 101);
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+li i a{
+    display:block;
+    color: white;
+    padding: 20px 20px;
+    background:rgb(77, 20, 162);
+    text-decoration: none;
+}
+
+li a:visited{
+    color:rgb(112, 4, 27);
+}
+
+li a:hover{
+    background-color: aqua;
+}
+
+#habilidades{
+    width: 900px;
+    height: 125px;
+    background: blue;
+}
+
+#habilidades_titulo{
+    width: 450px;
+    height: 25px;
+}
+#habilidades_arr_izq{
+    width: 450px;
+    height: 50px;
+    background: yellow;
+    float: left;
+}
+#habilidades_arr_der{
+    width: 450px;
+    height: 50px;
+    background: orangered;
+    float: right;
+}
+
+#habilidades_ab_izq{
+    width: 450px;
+    height: 50px;
+    background: deeppink;
+    float: left;
+}
+
+#habilidades_ab_der{
+    width: 450px;
+    height: 50px;
+    background: deepskyblue;
+    float: right;
+}
+
+#experiencia{
+    width: 900px;
+    height: 200px;
+    background: red;
+}
+
+
+
